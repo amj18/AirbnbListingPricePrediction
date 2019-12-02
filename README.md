@@ -8,16 +8,16 @@ The Jupyter notebooks are organised as follows. HTML versions are also included 
 
 1. **ExtractTransformLoad.ipynb**
 
-  This notebook extracts the data from the Airbnb API / URL, unzips it, and stores the raw dataframe to disk. 
+- This notebook extracts the data from the Airbnb API / URL, unzips it, and stores the raw dataframe to disk. 
   
 2. **DataExploratoryAnalysis.ipynb**
 
-The raw data was explored, corrected for missing values and around 11 key business questions about the dataset were answered with some commonly used statistical methods.
+- The raw data was explored, corrected for missing values and around 11 key business questions about the dataset were answered with some commonly used statistical methods.
 
 3. **FeatureEngineering.ipynb**
 
-A baseline model was first implemented using a simple linear regression model. After this, features were engineered based on the data exploration above.
+- A baseline model was first implemented using a simple linear regression model. After this, features were engineered based on the data exploration above.
 
 4. **ModelTrainTest.ipynb**
 
-Statistical transformations were implemented sequentially on a Stochastic Gradient Descent Linear Regression model with corresponding learning curves to visualise the bias and variance in the model. Finally, a Gradient Boosting Regression model was implemented. PCA was also briefly looked into to analyse which feature components explained the most variance in the data.
+- Statistical transformations were implemented sequentially on a Stochastic Gradient Descent Linear Regression model with corresponding learning curves to visualise the bias and variance in the model. Finally, a Gradient Boosting Regression model was implemented. PCA was also briefly looked into to analyse which feature components explained the most variance in the data.
